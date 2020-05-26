@@ -1,0 +1,6 @@
+framework module Pods_projecy_zigzag {
+  umbrella header "Pods-projecy_zigzag-umbrella.h"
+
+  export *
+  module * { export * }
+}
