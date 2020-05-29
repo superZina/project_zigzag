@@ -7,6 +7,7 @@ PODS:
   - AlamofireObjectMapper (5.2.0):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
+  - BEMCheckBox (1.4.1)
   - Crashlytics (3.10.9):
     - Fabric (~> 1.7.13)
   - Fabric (1.7.13)
@@ -64,6 +65,12 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - ObjectMapper (3.5.1)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - RYFloatingInput (0.1.6):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - SnapKit (4.0.1)
 
 DEPENDENCIES:
@@ -71,10 +78,12 @@ DEPENDENCIES:
   - AlamofireImage (~> 3.5)
   - AlamofireNetworkActivityIndicator (~> 2.3)
   - AlamofireObjectMapper (~> 5.2)
+  - BEMCheckBox
   - Crashlytics (~> 3.10.1)
   - Fabric (~> 1.7.5)
   - Firebase/Analytics
   - KYDrawerController
+  - RYFloatingInput
   - SnapKit (~> 4.0.0)
 
 SPEC REPOS:
@@ -83,6 +92,7 @@ SPEC REPOS:
     - AlamofireImage
     - AlamofireNetworkActivityIndicator
     - AlamofireObjectMapper
+    - BEMCheckBox
     - Crashlytics
     - Fabric
     - Firebase
@@ -94,6 +104,9 @@ SPEC REPOS:
     - KYDrawerController
     - nanopb
     - ObjectMapper
+    - RxCocoa
+    - RxSwift
+    - RYFloatingInput
     - SnapKit
 
 SPEC CHECKSUMS:
@@ -101,6 +114,7 @@ SPEC CHECKSUMS:
   AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
   AlamofireNetworkActivityIndicator: 9acc3de3ca6645bf0efed462396b0df13dd3e7b8
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   Crashlytics: 55e24fc23989680285a21cb1146578d9d18e432c
   Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
   Firebase: dedc9e48ea3f3649ad5f6b982f8a0c73508a14b5
@@ -112,8 +126,11 @@ SPEC CHECKSUMS:
   KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RYFloatingInput: 4034e3c12a8235a7d7e0a97d69ae05e906397b22
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: fe5fafe490a53b74364595c4bd2da19963d5d2dd
+PODFILE CHECKSUM: 59debad8e247fa89cd00e6b7891cdd66c769ea80
 
 COCOAPODS: 1.9.1
