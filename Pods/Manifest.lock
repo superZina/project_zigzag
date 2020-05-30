@@ -10,6 +10,7 @@ PODS:
   - BEMCheckBox (1.4.1)
   - Crashlytics (3.10.9):
     - Fabric (~> 1.7.13)
+  - DOFavoriteButton (0.0.4)
   - Fabric (1.7.13)
   - Firebase/Analytics (6.5.0):
     - Firebase/Core
@@ -72,6 +73,7 @@ PODS:
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - SnapKit (4.0.1)
+  - WCLShineButton (1.0.8)
 
 DEPENDENCIES:
   - Alamofire
@@ -80,11 +82,13 @@ DEPENDENCIES:
   - AlamofireObjectMapper (~> 5.2)
   - BEMCheckBox
   - Crashlytics (~> 3.10.1)
+  - DOFavoriteButton
   - Fabric (~> 1.7.5)
   - Firebase/Analytics
   - KYDrawerController
   - RYFloatingInput
   - SnapKit (~> 4.0.0)
+  - WCLShineButton
 
 SPEC REPOS:
   trunk:
@@ -94,6 +98,7 @@ SPEC REPOS:
     - AlamofireObjectMapper
     - BEMCheckBox
     - Crashlytics
+    - DOFavoriteButton
     - Fabric
     - Firebase
     - FirebaseAnalytics
@@ -108,6 +113,7 @@ SPEC REPOS:
     - RxSwift
     - RYFloatingInput
     - SnapKit
+    - WCLShineButton
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
@@ -116,6 +122,7 @@ SPEC CHECKSUMS:
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   Crashlytics: 55e24fc23989680285a21cb1146578d9d18e432c
+  DOFavoriteButton: 866e15af173d2dd5233971a1f657a5f31d2491d5
   Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
   Firebase: dedc9e48ea3f3649ad5f6b982f8a0c73508a14b5
   FirebaseAnalytics: 3fb375bc9d13779add4039716f868d233a473fad
@@ -130,7 +137,8 @@ SPEC CHECKSUMS:
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   RYFloatingInput: 4034e3c12a8235a7d7e0a97d69ae05e906397b22
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  WCLShineButton: 315ee9b0024b1cc56dba34fb6a8878937eb8d0b1
 
-PODFILE CHECKSUM: 59debad8e247fa89cd00e6b7891cdd66c769ea80
+PODFILE CHECKSUM: adbac78277f26c313b2bbad4d24f858d4555de08
 
 COCOAPODS: 1.9.1

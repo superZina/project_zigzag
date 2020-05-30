@@ -11,4 +11,5 @@ ${BUILT_PRODUCTS_DIR}/RYFloatingInput/RYFloatingInput.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
 ${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/WCLShineButton/WCLShineButton.framework
 ${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework
