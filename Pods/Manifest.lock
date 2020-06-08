@@ -10,7 +10,6 @@ PODS:
   - BEMCheckBox (1.4.1)
   - Crashlytics (3.10.9):
     - Fabric (~> 1.7.13)
-  - DOFavoriteButton (0.0.4)
   - Fabric (1.7.13)
   - Firebase/Analytics (6.5.0):
     - Firebase/Core
@@ -35,6 +34,8 @@ PODS:
     - FirebaseCore (~> 6.0)
     - GoogleUtilities/Environment (~> 6.0)
     - GoogleUtilities/UserDefaults (~> 6.0)
+  - FSPagerView (0.8.3)
+  - GMStepper (2.2)
   - GoogleAppMeasurement (6.0.4):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -59,20 +60,16 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.2.3):
     - GoogleUtilities/Logger
-  - KYDrawerController (2.1.0)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - ObjectMapper (3.5.1)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.5.0)
-  - RYFloatingInput (0.1.6):
-    - RxCocoa (~> 4.0)
-    - RxSwift (~> 4.0)
+  - Pageboy (3.6.1)
   - SnapKit (4.0.1)
+  - Tabman (2.9.0):
+    - Pageboy (~> 3.6.0)
   - WCLShineButton (1.0.8)
 
 DEPENDENCIES:
@@ -82,12 +79,12 @@ DEPENDENCIES:
   - AlamofireObjectMapper (~> 5.2)
   - BEMCheckBox
   - Crashlytics (~> 3.10.1)
-  - DOFavoriteButton
   - Fabric (~> 1.7.5)
   - Firebase/Analytics
-  - KYDrawerController
-  - RYFloatingInput
+  - FSPagerView
+  - GMStepper
   - SnapKit (~> 4.0.0)
+  - Tabman (~> 2.9)
   - WCLShineButton
 
 SPEC REPOS:
@@ -98,21 +95,20 @@ SPEC REPOS:
     - AlamofireObjectMapper
     - BEMCheckBox
     - Crashlytics
-    - DOFavoriteButton
     - Fabric
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseInstanceID
+    - FSPagerView
+    - GMStepper
     - GoogleAppMeasurement
     - GoogleUtilities
-    - KYDrawerController
     - nanopb
     - ObjectMapper
-    - RxCocoa
-    - RxSwift
-    - RYFloatingInput
+    - Pageboy
     - SnapKit
+    - Tabman
     - WCLShineButton
 
 SPEC CHECKSUMS:
@@ -122,23 +118,22 @@ SPEC CHECKSUMS:
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   Crashlytics: 55e24fc23989680285a21cb1146578d9d18e432c
-  DOFavoriteButton: 866e15af173d2dd5233971a1f657a5f31d2491d5
   Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
   Firebase: dedc9e48ea3f3649ad5f6b982f8a0c73508a14b5
   FirebaseAnalytics: 3fb375bc9d13779add4039716f868d233a473fad
   FirebaseCore: aecf02fb2274ec361b9bebeac112f5daa18273bd
   FirebaseInstanceID: 662b8108a09fe9ed01aafdedba100fde8536b0f6
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
   GoogleAppMeasurement: 183bd916af7f80deb67c01888368f1108d641832
   GoogleUtilities: d2b0e277a95962e09bb27f5cd42f5f0b6a506c7d
-  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
-  RYFloatingInput: 4034e3c12a8235a7d7e0a97d69ae05e906397b22
+  Pageboy: 29a2d474ad99404b4d77f325e0ab6d705930a4fb
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Tabman: 55d3d18f393ce5119515cd0349c841a07774c895
   WCLShineButton: 315ee9b0024b1cc56dba34fb6a8878937eb8d0b1
 
-PODFILE CHECKSUM: adbac78277f26c313b2bbad4d24f858d4555de08
+PODFILE CHECKSUM: 9a12cb37fc3def1f250cbdfa5357b4b5a25ea623
 
 COCOAPODS: 1.9.1

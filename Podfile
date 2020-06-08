@@ -14,9 +14,17 @@ target 'ios' do
   pod 'Firebase/Analytics'
   pod 'Fabric', '~> 1.7.5'
   pod 'Crashlytics', '~> 3.10.1'
-  pod 'KYDrawerController'
   pod 'BEMCheckBox'
-  pod 'RYFloatingInput'
-  pod 'DOFavoriteButton'
   pod 'WCLShineButton'
+  pod 'GMStepper'
+  pod 'Tabman', '~> 2.9'
+  pod 'FSPagerView'
+  
+#   Workaround for Cocoapods issue #7606
+  post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+      config.build_settings.delete('CODE_SIGNING_ALLOWED')
+      config.build_settings.delete('CODE_SIGNING_REQUIRED')
+    end
+  end
 end
